@@ -16,22 +16,10 @@
     </div>
 </x-app-layout> --}}
 
-<x-sidebar-layout
-    variant="sidebar"
-    collapsible="offcanvas"
-    side="left">
-    <ul>
-        <li>
-            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Dashbaord</a></li>
-        <li>
-            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Reports</a>
-        </li>
-        <li>
-            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Parcels</a>
-        </li>
-        <li>
-            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Settings</a>
-        </li>
-    </ul>
-</x-sidebar-layout>
+@extends('layouts.sidebar')
+
+@section('content')
+    <h1 class="text-2xl font-bold mb-4">Welcome to Dashboard</h1>
+@endsection
+
 
