@@ -71,5 +71,9 @@ function sidebarHandler() {
             }
         }
     }
+
+    // this.open = localStorage.getItem('sidebar_state') !== 'false';
+    // localStorage.setItem('sidebar_state', this.open);
+
 }
 </script>

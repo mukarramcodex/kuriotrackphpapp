@@ -16,7 +16,7 @@
     </div>
 </x-app-layout> --}}
 
-<x-sidebar
+<x-sidebar-layout
     variant="sidebar"
     collapsible="offcanvas"
     side="left">
@@ -33,4 +33,5 @@
             <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Settings</a>
         </li>
     </ul>
-</x-sidebar>
+</x-sidebar-layout>
+
