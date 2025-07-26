@@ -1,4 +1,4 @@
-<x-app-layout>
+{{-- <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
@@ -14,4 +14,23 @@
             </div>
         </div>
     </div>
-</x-app-layout>
+</x-app-layout> --}}
+
+<x-sidebar
+    variant="sidebar"
+    collapsible="offcanvas"
+    side="left">
+    <ul>
+        <li>
+            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Dashbaord</a></li>
+        <li>
+            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Reports</a>
+        </li>
+        <li>
+            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Parcels</a>
+        </li>
+        <li>
+            <a href="" class="block px-4 py-2 hover:bg-gray-100 rounded">Settings</a>
+        </li>
+    </ul>
+</x-sidebar>
